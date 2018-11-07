@@ -1,0 +1,47 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    background-color:#CCD1D1; 
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: #34495E;
+    box-shadow: #34495E; 
+}
+#header>h1{
+    padding: 10px;
+    width: 1030px;
+    margin: 0px auto;
+    color: #E74C3C;   
+}
+#container{
+   width: 1030px;
+   height: 500px;
+   margin: 0px auto;
+   margin-top: 20px;
+   background-color:#2ECC71  ;
+   border: 1px solid #34495E;
+   overflow: scroll;
+}
+#controls{
+    width: 1030px;
+    margin:0px auto;
+}
+textarea{
+    resize: none;
+    width: 500px;
+}
+#send{
+    font-size: 25px;
+    position: absolute;
+}
+.username{
+    color:#E74C3C;
+    font-weight: bold;
+}
+.bot{
+    color:#21618C;
+    font-weight: bold;
+}
